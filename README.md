@@ -8,7 +8,7 @@ Checkout Live, Virtual Airhacks Workshops [airhacks.live](http://airhacks.live) 
 
 Any questions left? Checkout [airhacks.tv](http://airhacks.tv)
 
-We are going to build the "Dragon UI" for the here implemented backend at Wednesday: [From Java Developer To Web Guru #noslides #noframeworks](https://jdd.org.pl/bio/#id=44103). Checkout [meetup.com/airhacks](https://www.meetup.com/airhacks/events/273876202/) to get 20% off ("THUMBS_UP" :-).
+We are going to build the "Dragon UI" for the here implemented backend at Wednesday: [From Java Developer To Web Guru #noslides #noframeworks](https://jdd.org.pl/lecture/#id=62977). Checkout [meetup.com/airhacks](https://www.meetup.com/airhacks/events/273876202/) to get 20% off ("THUMBS_UP" :-).
 
 ## resources
 
