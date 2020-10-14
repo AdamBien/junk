@@ -6,7 +6,7 @@ Source Code for the JDD conference talk: [From Java Developer To Web Guru #nosli
 and:
 ========
 
-Source Code for the JDD conference talk: [Building Kickass Java Backends #slideless](https://jdd.org.pl/lecture/#id=62882)
+[Building Kickass Java Backends #slideless](https://jdd.org.pl/lecture/#id=62882)
 ========
 
 
