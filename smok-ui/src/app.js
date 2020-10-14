@@ -1,15 +1,20 @@
 import { html, render } from "./lit-html.js";
-
-class Smok extends HTMLElement { 
+import "./DatePicker.js";
+class Smok extends HTMLElement {
 
     connectedCallback() {
         const message = "some fire"
         const template = html`
-            <button @click=${_=> this.spitFire()}>spit fire</button>
+             <ui5-date-picker @change=${e => this.smokBirthday(e)} id="myDatepicker1"></ui5-date-picker>
+            <button @click=${_ => this.spitFire()}>spit fire</button>
             <h2>Smok ${this.getAttribute('message')} from Wawel with ${message}</h2>
         `;
-        console.log(template);        
-        render(template,this);
+        console.log(template);
+        render(template, this);
+    }
+
+    smokBirthday({ detail: { value } }) { 
+        console.log(value);
     }
 
     async spitFire() { 
