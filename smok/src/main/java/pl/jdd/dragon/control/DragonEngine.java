@@ -22,12 +22,9 @@ public class DragonEngine {
     @Retry(maxRetries = 2)
     public Dragon create() {
         System.out.println("DragonEngine.create() .");
-        throw new RuntimeException("just for fun");
+        return new Dragon("nice dragon", "spit fire, eat children", 700);
 
     }
     
-    public Dragon unstableDragonCreation() {
-        return new Dragon("fake dragon", "spit fire, eat children", 500);
-    }
     
 }

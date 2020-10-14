@@ -12,8 +12,11 @@ class Smok extends HTMLElement {
         render(template,this);
     }
 
-    spitFire() { 
-        console.log("spitting like crazy");
+    async spitFire() { 
+        const response = await fetch("http://localhost:8080/smok");
+        const json = await response.json();
+        const { capabilities, age, name } = json;
+        console.log(`Smok data from backend: ${capabilities} ${age} ${name}`);
     }
 
 }
