@@ -58,6 +58,8 @@ https://lit-html.polymer-project.org
 
 https://redux.js.org
 
+https://github.com/AdamBien/webcomponents-with-redux.training (sample app)
+
 
 # adam bien && airhacks
 
